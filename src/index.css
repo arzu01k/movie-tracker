@@ -1,0 +1,14 @@
+/* Netflix'e yakın koyu tema: Bootstrap'in dark mode CSS değişkenlerini eziyoruz */
+:root,
+[data-bs-theme='dark'] {
+  --bs-body-bg: #141414;
+  --bs-body-bg-rgb: 20, 20, 20;
+  --bs-body-color: #e5e5e5;
+  --bs-border-color: #2c2c2c;
+  --bs-secondary-bg: #1f1f1f;
+  --bs-tertiary-bg: #181818;
+}
+
+body {
+  margin: 0;
+}
