@@ -1,16 +1,37 @@
-# React + Vite
+# 🎬 Movie Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Film ve dizi izleme listesi uygulaması. React + Bootstrap 5 ile geliştirildi, ekleme/listeleme/güncelleme/silme (CRUD) işlemlerini tarayıcının `localStorage`'ı üzerinde gerçekleştirir.
 
-Currently, two official plugins are available:
+🔗 **Canlı demo:** [movie-tracker-1.netlify.app](https://movie-tracker-1.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Movie Tracker ekran görüntüsü](./screenshots/screenshot.png)
 
-## React Compiler
+## Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ Film/dizi ekleme (başlık, tür, durum, puan, poster, yorum)
+- 📋 Listeleme (kart görünümü)
+- ✏️ Güncelleme
+- 🗑️ Silme
+- 💾 `localStorage` ile kalıcı veri saklama
+- 🎨 Bootstrap 5 ile koyu tema
 
-## Expanding the Oxlint configuration
+## Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- [React](https://react.dev/)
+- [Vite](https://vite.dev/)
+- [Bootstrap 5](https://getbootstrap.com/)
+
+## Yerelde Çalıştırma
+
+```bash
+npm install
+npm run dev
+```
+
+## Proje Yapısı
+
+```
+src/
+  components/   → MovieForm, MovieList, MovieCard
+  pages/        → Home
+```
